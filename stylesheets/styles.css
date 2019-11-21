@@ -47,6 +47,33 @@ th {
     text-align: right;
 }
 
-.odd-row {
+
+/* This is the descendant selector.
+    It refers to an element anywhere inside
+    another element.
+ */
+tr:hover td {
+    /* color: white; */
+    
+    /* font-size: 28px; */
+    /* font-size: 2.2em;  */
+    /* multiply by the current font size */
+}
+
+/* 
+:hover is the "pseudo-class"
+that refers to an element when
+a mouse pointer is overlapping it.
+*/
+/* tr:hover {
+    background-color: #f9f9f9;
+} */
+
+/* 
+To apply styles to more than one
+selector, list the selectors out
+separated by commas.
+ */
+.odd-row, tr:hover {
     background-color: #f9f9f9;
 }
