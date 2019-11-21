@@ -1,5 +1,6 @@
 
 html {
+    font-family: 'Lato', sans-serif;    
     /* the argument to the URL function
         is relative to the stylesheet.
         To access our images directory,
@@ -32,11 +33,16 @@ table {
     wide as your container.
      */
     width: 100%;
+    border-spacing: 0;
 }
 
 th {
     background-color: #4285f4;
     color: #fff;
+}
+
+th, td {
+    padding: 8px;
 }
 
 .column-1 {
