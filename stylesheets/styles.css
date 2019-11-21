@@ -83,3 +83,49 @@ separated by commas.
 .odd-row, tr:hover {
     background-color: #f9f9f9;
 }
+
+.sidebar-heading {
+    text-transform: uppercase;
+}
+
+a {
+    /* display: block; */
+    /* 
+        This makes the anchor tag
+        take up as much horizontal space
+        as possible.
+     */
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+/* moar pseduo-classes! */
+ul a:link,
+ul a:visited {
+    text-transform: uppercase;
+    color: #57ad68;
+    text-decoration: none;
+}
+
+ul a:hover {
+    text-decoration: underline;
+}
+
+li {
+
+    /* 1st value is top/bottom, 2nd is left/right */
+    padding: 8px 0;    
+
+    /* Different values for four directions */
+    /* padding: 10px 0 2px 3px; */
+    
+    /* Use 10px for all directions */
+    /* padding: 10px; */
+    
+    /* margin: 10px; */
+    display: block;
+    /* outline: 1px solid red; */
+}
